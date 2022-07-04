@@ -1,0 +1,182 @@
+"2022-07-04 12:36:32 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.2 on LAPTOP-JCCV9EDH with PID 20308 (C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice\target\classes started by shaki in C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice)
+""2022-07-04 12:36:32 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-04 12:36:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-04 12:36:32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-04 12:36:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-04 12:36:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+""2022-07-04 12:36:33 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=19ff0c06-774a-32d9-8cf8-865f5b262fea
+""2022-07-04 12:36:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-07-04 12:36:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-04 12:36:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-04 12:36:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-04 12:36:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2016 ms
+""2022-07-04 12:36:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-04 12:36:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-04 12:36:34 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-04 12:36:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-04 12:36:35 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-04 12:36:35 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-04 12:36:35 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-04 12:36:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-04 12:36:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 12:36:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-04 12:36:36 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-04 12:36:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-07-04 12:36:37 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 5.543 seconds (JVM running for 6.065)
+""2022-07-04 12:40:35 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-04 12:40:35 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-04 12:40:35 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+""2022-07-04 12:40:35 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 12:40:35 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 12:41:08 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 12:56:39 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:06:31 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:07:16 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:07:39 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:07:39 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:10:45 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:10:45 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:17:33 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:20:00 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 13:20:00 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:17:08 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:17:09 [http-nio-8082-exec-9] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:18:56 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:18:56 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:37:50 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:37:50 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:40:09 [http-nio-8082-exec-7] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:40:09 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:45:47 [http-nio-8082-exec-10] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:45:47 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:53:32 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 14:53:32 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 15:11:41 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 15:11:41 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 15:48:52 [http-nio-8082-exec-2] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 15:48:52 [http-nio-8082-exec-6] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 15:49:20 [http-nio-8082-exec-5] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 16:35:02 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 16:35:02 [http-nio-8082-exec-3] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 16:35:35 [http-nio-8082-exec-4] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 19:38:34 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.2 on LAPTOP-JCCV9EDH with PID 17032 (C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice\target\classes started by shaki in C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice)
+""2022-07-04 19:38:34 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-04 19:38:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-07-04 19:38:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-07-04 19:38:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-04 19:38:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+""2022-07-04 19:38:35 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=19ff0c06-774a-32d9-8cf8-865f5b262fea
+""2022-07-04 19:38:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-07-04 19:38:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-04 19:38:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-04 19:38:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-04 19:38:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2287 ms
+""2022-07-04 19:38:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-04 19:38:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-04 19:38:37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-04 19:38:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-04 19:38:37 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-04 19:38:37 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-04 19:38:37 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-04 19:38:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-04 19:38:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 19:38:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-04 19:38:38 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-04 19:38:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-07-04 19:38:40 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 6.118 seconds (JVM running for 6.655)
+""2022-07-04 19:41:52 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-04 19:41:52 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-04 19:41:52 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2022-07-04 19:41:52 [http-nio-8082-exec-1] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 20:06:47 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 20:06:48 [Thread-1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-07-04 20:06:48 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-04 20:06:48 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-04 20:06:48 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Starting DailySharePriceApplication using Java 17.0.2 on LAPTOP-JCCV9EDH with PID 17032 (C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice\target\classes started by shaki in C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice)
+""2022-07-04 20:06:48 [restartedMain] INFO  c.c.d.DailySharePriceApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=06edcab2-3d4f-375c-b803-7ee141e7ed09
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+""2022-07-04 20:06:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-07-04 20:06:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-07-04 20:06:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 833 ms
+""2022-07-04 20:06:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-04 20:06:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-04 20:06:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-04 20:06:49 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-04 20:06:49 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 20:06:49 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-04 20:06:49 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2022-07-04 20:06:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+""2022-07-04 20:06:50 [restartedMain] INFO  c.c.d.DailySharePriceApplication - Started DailySharePriceApplication in 1.543 seconds (JVM running for 1696.605)
+""2022-07-04 20:06:50 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2022-07-04 20:06:58 [http-nio-8082-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-07-04 20:06:58 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-07-04 20:06:58 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+""2022-07-04 20:08:26 [http-nio-8082-exec-8] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 20:10:04 [main] INFO  c.c.d.controller.StockControllerTest - Starting StockControllerTest using Java 17.0.2 on LAPTOP-JCCV9EDH with PID 4656 (started by shaki in C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice)
+""2022-07-04 20:10:04 [main] INFO  c.c.d.controller.StockControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-04 20:10:07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-07-04 20:10:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-07-04 20:10:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-07-04 20:10:07 [main] INFO  c.c.d.controller.StockControllerTest - Started StockControllerTest in 3.133 seconds (JVM running for 4.159)
+""2022-07-04 20:10:07 [main] INFO  c.c.d.controller.StockController - fetching Stock Details using stockName
+""2022-07-04 20:10:07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailyshareprice.DailySharePriceApplicationTests], using SpringBootContextLoader
+""2022-07-04 20:10:07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailyshareprice.DailySharePriceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-04 20:10:07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailyshareprice.DailySharePriceApplicationTests]: DailySharePriceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-04 20:10:07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailyshareprice.DailySharePriceApplication for test class com.cts.dailyshareprice.DailySharePriceApplicationTests
+""2022-07-04 20:10:07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-04 20:10:07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@186dcb05, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1d0dad12, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3c6fb501, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@58a8ea6f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2e6b379c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5e7e7a7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ff81b0d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1c610f, org.springframework.test.context.event.EventPublishingTestExecutionListener@773c7147, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5abc5854, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c3007d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@66b40dd3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7296fe0b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4a5066f5, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@578d472a]
+""2022-07-04 20:10:07 [main] INFO  c.c.d.DailySharePriceApplicationTests - Starting DailySharePriceApplicationTests using Java 17.0.2 on LAPTOP-JCCV9EDH with PID 4656 (started by shaki in C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice)
+""2022-07-04 20:10:07 [main] INFO  c.c.d.DailySharePriceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+""2022-07-04 20:10:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-04 20:10:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+""2022-07-04 20:10:08 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=109bdc88-ebfb-360d-be19-7e3371642d53
+""2022-07-04 20:10:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-07-04 20:10:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-07-04 20:10:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-04 20:10:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-07-04 20:10:09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-07-04 20:10:09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-04 20:10:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-04 20:10:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 20:10:10 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-04 20:10:10 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-04 20:10:11 [main] INFO  c.c.d.DailySharePriceApplicationTests - Started DailySharePriceApplicationTests in 3.852 seconds (JVM running for 8.21)
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailyshareprice.model.StockTest], using SpringBootContextLoader
+""2022-07-04 20:10:11 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailyshareprice.model.StockTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-04 20:10:11 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailyshareprice.model.StockTest]: StockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailyshareprice.DailySharePriceApplication for test class com.cts.dailyshareprice.model.StockTest
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6285027a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e834f3a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5bb00dcc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57ce8f63, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d92d132, org.springframework.test.context.support.DirtiesContextTestExecutionListener@59acb725, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2291fb1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@213f2d00, org.springframework.test.context.event.EventPublishingTestExecutionListener@2aaf7354, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1606ecbb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c18ad5d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@497ccf3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55732ae6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@743167c7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6d5a4e59]
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cts.dailyshareprice.service.StockServiceTest], using SpringBootContextLoader
+""2022-07-04 20:10:11 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cts.dailyshareprice.service.StockServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+""2022-07-04 20:10:11 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cts.dailyshareprice.service.StockServiceTest]: StockServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cts.dailyshareprice.DailySharePriceApplication for test class com.cts.dailyshareprice.service.StockServiceTest
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+""2022-07-04 20:10:11 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5304cee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68b59e2f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@685a3c14, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c2ad035, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4b7ab262, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f7a19c4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@36f93ea3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2c48eb31, org.springframework.test.context.event.EventPublishingTestExecutionListener@323fa578, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6d543ec2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@12a719ed, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@79dd79eb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@368617cd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7ae88df1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@502a9b30]
+""2022-07-04 20:10:11 [main] INFO  c.c.d.service.StockServiceTest - Starting StockServiceTest using Java 17.0.2 on LAPTOP-JCCV9EDH with PID 4656 (started by shaki in C:\Users\shaki\Documents\CTS_internship_studies\MFPE\final\007-pod2-DailySharePrice)
+""2022-07-04 20:10:11 [main] INFO  c.c.d.service.StockServiceTest - No active profile set, falling back to 1 default profile: "default"
+""2022-07-04 20:10:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-07-04 20:10:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+""2022-07-04 20:10:12 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=109bdc88-ebfb-360d-be19-7e3371642d53
+""2022-07-04 20:10:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+""2022-07-04 20:10:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+""2022-07-04 20:10:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-07-04 20:10:12 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-07-04 20:10:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-07-04 20:10:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 20:10:12 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-07-04 20:10:12 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:pms'
+""2022-07-04 20:10:13 [main] INFO  c.c.d.service.StockServiceTest - Started StockServiceTest in 1.49 seconds (JVM running for 9.84)
+""2022-07-04 20:10:13 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 20:10:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-07-04 20:10:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-07-04 20:10:13 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-07-04 20:10:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+""2022-07-04 20:10:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+"
